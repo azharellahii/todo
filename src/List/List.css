@@ -1,0 +1,22 @@
+.l-insider {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.list {
+    display: flex;
+    font-size: 1rem;
+}
+
+.dltBtn {
+    display: flex;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}

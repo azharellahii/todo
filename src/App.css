@@ -1,0 +1,95 @@
+body {
+    background-image: url("./Img/todo.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#root {
+    width: 60%;
+}
+
+.a-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #14213D;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+.a-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.label {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 25px;
+    width: 80%;
+}
+
+.a-button {
+    cursor: pointer;
+    margin: 10px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-span {
+    display: flex;
+    justify-content: center;
+}
+
+.l-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (width<540px) {
+    #root {
+        width: 100%;
+        display: flex;
+    }
+
+    .a-container {
+        margin: 0px;
+        display: flex;
+    }
+}
