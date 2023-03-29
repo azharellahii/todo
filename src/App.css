@@ -1,8 +1,8 @@
 body {
+    height: 100vh;
     background-image: url("./Img/todo.avif");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
     color: #E5E5E5;
     display: flex;
     flex-direction: column;
@@ -14,14 +14,13 @@ body {
 }
 
 .a-container {
-    margin-top: 10px;
+    margin: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: #14213D;
     border: 3px solid #000000;
     border-radius: 30px;
-    flex-wrap: wrap;
 }
 
 .a-element {
@@ -32,7 +31,7 @@ body {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -60,7 +59,7 @@ h1 {
     font-size: 1rem;
     border: 2px solid black;
     border-radius: 20px;
-    height: 25px;
+    padding: 10px;
     width: 80%;
 }
 
@@ -69,6 +68,11 @@ h1 {
     margin: 10px 150px;
     display: flex;
     justify-content: center;
+    font-size: 30px !important;
+}
+
+.a-button:hover {
+    transform: scale(1.2);
 }
 
 .btn-span {
@@ -76,14 +80,7 @@ h1 {
     justify-content: center;
 }
 
-.l-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-@media (width<540px) {
+@media (width<740px) {
     #root {
         width: 100%;
         display: flex;

@@ -4,9 +4,10 @@
     border-radius: 20px;
     border: 1px solid orange;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    width: 90%;
+    gap: 20px;
 }
 
 .list {
@@ -16,7 +17,11 @@
 
 .dltBtn {
     display: flex;
-    font-size: 1rem;
+    font-size: 30px !important;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.dltBtn:hover {
+    transform: scale(1.2);
 }
